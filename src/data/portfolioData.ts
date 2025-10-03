@@ -1,11 +1,32 @@
 import type { PortfolioData } from '../types';
 
 export const portfolioData: PortfolioData = {
-    name: "Akul Chauhan",
+    name: "AKUL CHAUHAN",
     aboutHome: "A creative Full-Stack Developer passionate about building robust, scalable web applications and turning complex problems into elegant, efficient solutions.",
-    aboutPage: "Hello! I'm Ankit, a full-stack developer based in Delhi, India. My journey into technology began with a deep curiosity for how things work, which led me to pursue a B.TECH in Mathematics and Computing. Today, I specialize in architecting high-performance backend systems using Java Spring Boot, ASP.NET Core, and Golang, while also creating engaging user experiences with React and Tailwind CSS. I thrive on the challenges of system integration, API design, and building secure, scalable microservices. Beyond coding, I'm passionate about exploring emerging technologies and contributing to the open-source community.",
+    aboutPage: "Hello! I'm Akul, a full-stack developer based in Delhi, India. My journey into technology began with a deep curiosity for how things work, which led me to pursue a B.TECH in Mathematics and Computing. Today, I specialize in architecting high-performance backend systems using Java Spring Boot, ASP.NET Core, and Golang, while also creating engaging user experiences with React and Tailwind CSS. I thrive on the challenges of system integration, API design, and building secure, scalable microservices. Beyond coding, I'm passionate about exploring emerging technologies and contributing to the open-source community.",
 
     projects: [
+        {
+            id: "analytical-dashboard",
+            title: "Analytical Dashboard",
+            description: "Engineered a full-stack analytics dashboard using Python and Streamlit to provide real-time visualization of order performance metrics from a PostgreSQL database, featuring a custom, mobile-responsive UI with interactive Plotly charts.",
+            technologies: ["Python", "Streamlit", "Pandas", "SQLAlchemy", "Plotly", "PostgreSQL"],
+            sourceCode: "https://github.com/THE-AkS-21/streamlit_dashboard",
+            readme: `
+# 📊 Streamlit Analytics Dashboard
+
+A modern, responsive Streamlit dashboard for Bombay Shaving Company to track and visualize order performance by SKU, category, and date range from a PostgreSQL data source.
+
+## 🚀 Key Features
+
+-   **Custom UI Components**: Includes a custom collapsible sidebar and a fixed navbar with a dynamic toolbar.
+-   **Interactive Charts**: Uses Plotly and streamlit-lightweight-charts to create interactive visualizations of daily order trends.
+-   **Dynamic Filtering**: Allows users to filter data by category, subcategory, SKU, and date range.
+-   **Performance Optimized**: Implements strategic caching with \`@st.cache_data\` and \`@st.cache_resource\` to ensure fast query performance, even with large datasets.
+-   **Data Export**: Features a one-click "Download CSV" option for offline analysis.
+-   **Clean Architecture**: Built with a modular structure separating UI components, database queries, and utility functions.
+`
+        },
         {
             id: "ecommerce-product-management",
             title: "E-Commerce Product Management System",
@@ -99,6 +120,55 @@ A full-stack movie review application built with React, Spring Boot, and Postgre
 - **Nginx Reverse Proxy**: Production-ready reverse proxy configuration
 - **Environment Configuration**: Flexible environment-based configuration
 
+`
+        },
+        {
+            id: "task-manager",
+            title: "Task Manager",
+            description: "Developed a full-stack application with a RESTful API backend in Golang, focusing on efficient CRUD operations and backend performance for task management.",
+            technologies: ["Golang", "MongoDB", "ReactJS", "REST APIs"],
+            sourceCode: "https://github.com/THE-AkS-21/Task-Manager",
+            readme: `# 📝 Full-Stack Task Manager
+
+A modern, full-stack task management application built with a **Go (Golang)** backend and a **React + TypeScript** frontend. This project features a robust RESTful API for all core task operations and a clean, responsive user interface built with Chakra UI.
+
+---
+
+## 📖 About The Project
+
+This application provides a simple yet powerful interface for managing to-do items. It's designed with a clean separation between the frontend and backend, making it a great example of a modern, full-stack web application architecture. The backend is built in Go for performance and concurrency, while the frontend uses a modern React stack for a fast and interactive user experience.
+
+## 🚀 Key Features
+
+-   **Full CRUD Functionality**: Create, read, update, and delete tasks.
+-   **Mark Tasks Complete/Incomplete**: Easily toggle the status of any task.
+-   **Bulk Delete**: Clear all tasks with a single action.
+-   **RESTful API**: A well-defined API for seamless communication between the client and server.
+-   **Modern Frontend**: A responsive and accessible user interface built with React and Chakra UI.
+-   **Efficient Data Fetching**: Utilizes TanStack Query for optimized data fetching and state management.
+
+## 🛠️ Tech Stack
+
+| Area      | Technology                                                                          |
+| :-------- | :---------------------------------------------------------------------------------- |
+| **Backend** | **Go (Golang)** with **Gorilla Mux** for routing |
+| **Database**| **MongoDB** (with the official Go driver) |
+| **Frontend**| **React 18** (with Vite), **TypeScript** |
+| **UI Library**| **Chakra UI** |
+| **Data Fetching**| **TanStack (React) Query**|
+
+## 📊 API Endpoints
+
+All API endpoints are prefixed with \`/api\`.
+
+| Method   | Endpoint              | Description                    |
+| :------- | :-------------------- | :----------------------------- |
+| \`GET\`    | \`/task\`               | Get all tasks |
+| \`POST\`   | \`/tasks\`              | Create a new task |
+| \`PUT\`    | \`/tasks/{id}\`         | Mark a task as complete |
+| \`PUT\`    | \`/undoTask/{id}\`      | Mark a task as not complete |
+| \`DELETE\` | \`/deleteTask/{id}\`    | Delete a single task |
+| \`DELETE\` | \`/deleteAllTasks\`    | Delete all tasks |
 `
         },
         {
@@ -246,7 +316,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
         },
         {
             category: "Databases",
-            technologies: ["PostgreSQL", "MongoDB", "MySQL", "SQL Server"]
+            technologies: ["MongoDB", "MySQL", "SQL Server"]
         },
         {
             category: "DevOps & Tools",
@@ -263,19 +333,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     ],
     workExperience: [
         {
-            role: "Software Engineer Intern",
-            company: "Bombay Shaving Company",
+            role: "FrontEnd Developer",
+            company: "1Stop-AI",
             period: "Jul 2025 – Sept 2025",
-            description: "Engineered scalable backend services using C# and ASP.NET Core for critical system integrations. Developed an internal data analytics dashboard using Python and Streamlit to visualize real-time operational metrics, and contributed to CI/CD pipelines with Docker.",
-            technologies: ["C#", "ASP.NET Core", "Python", "Streamlit", "PostgreSQL", "Docker", "CI/CD"]
+            description: "Engineered scalable frontend services using CSS,JAVASCRIPT,Bootstrap Core for smooth,responsive pages.",
+            technologies: ["C#","HTML","CSS","Bootstrap","JQuery"]
         }
     ],
     education: [
         {
-            title: "Secondary School",
+            title: " Secondary School",
             degree: "Physics, Chemistry, and Mathematics",
-            institution: "Kendriya Vidyalaya AGCR",
-            period: "2018-2020",
+            institution: "NVM Senior Secondary School",
+            period: "2020-2022",
             coursework: [],
             location: "Delhi, India",
             logo: "assets/KV.png"
@@ -284,7 +354,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
             title: "Bachelor of Technology",
             degree: "B.TECH in Mathematics and Computing",
             institution: "Delhi Technological University",
-            period: "2020-2024",
+            period: "2022-2026",
             coursework: ["Data Structures & Algorithms", "Operating Systems", "Database Management Systems", "Computer Networks", "Object-Oriented Programming"],
             location: "Delhi, India",
             logo: "assets/DTU.png"
@@ -292,7 +362,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     ],
     resumeUrl: "/resume.pdf",
     socials: {
-        github: "https://github.com/THE-AkS-21",
-        linkedin: "https://www.linkedin.com/in/ankit-kumar-singh-535341203/"
+        github: "https://github.com/akulcodes-art",
+        linkedin: "https://www.linkedin.com/in/akul-chauhan-5b5734266"
     }
 };
