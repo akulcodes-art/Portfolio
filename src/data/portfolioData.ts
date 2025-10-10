@@ -30,53 +30,6 @@ Tech Stack Framework: Spring Boot 3
         },
 
         {
-            id: "portfolio",
-            title: "Personal Portfolio",
-            description: "Designed and deployed a fully responsive personal portfolio website using ReactJS and Tailwind CSS, hosted on GitHub Pages for seamless deployment and accessibility.",
-            technologies: ["ReactJS", "Tailwind CSS", "Github Pages"],
-            sourceCode: "https://github.com/THE-AkS-21/Portfolio",
-            liveDemo: "https://the-aks-21.github.io/Portfolio",
-            readme: `
-# Personal Developer Portfolio
-
-A clean, modern, and fully responsive personal portfolio built with React, TypeScript, and Tailwind CSS. This project serves as a dynamic showcase of my skills, experience, and projects, featuring a futuristic UI, smooth animations, and a reusable, component-based architecture.
----
-
-## 📖 About The Project
-
-This portfolio was designed not just to display my work, but to be a piece of work in itself. It demonstrates modern frontend development practices, including a strong emphasis on the DRY (Don't Repeat Yourself) principle, a data-driven content strategy, and a futuristic user interface with engaging micro-interactions.
-
-The entire site is a Single Page Application (SPA) powered by React Router, ensuring a seamless and fast user experience.
-
-## 🚀 Key Features
-
--   **Futuristic UI/UX**: A clean, light-themed interface with smooth animations and a focus on readability.
--   **Fully Responsive Design**: Optimized for a seamless experience on desktops, tablets, and mobile devices.
--   **Data-Driven Content**: All portfolio information (projects, skills, experience) is managed from a single, centralized \`portfolioData.ts\` file, making updates effortless.
--   **Reusable Component Architecture**: Built on the DRY principle with reusable \`Section\`, \`Card\`, and \`Icon\` components for maximum maintainability.
--   **Project Detail Pages**: Users can click on any project card to navigate to a dedicated, full-width page with a detailed README and image gallery.
--   **Interactive Project Gallery**: A sleek, modern gallery on project pages to showcase multiple images.
--   **Centralized Icon System**: A single, scalable component manages all icons (tech, social, UI) and their brand colors.
--   **Contact Form Integration**: A functional contact form connected to EmailJS for receiving messages directly.
--   **Scroll-Reveal Animations**: Content gracefully animates into view as the user scrolls.
-
-## 🛠️ Tech Stack
-
-This project is built with a modern, professional tech stack:
-
--   **Framework**: React 18
--   **Language**: TypeScript
--   **Build Tool**: Vite
--   **Styling**: Tailwind CSS
--   **Routing**: React Router DOM
--   **Markdown Rendering**: React Markdown
--   **Deployment**: GitHub Pages
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.`
-        },
-        {
             id: "food-delivery",
             title: "Food Delivery application",
             description: "Food Delivery fast & secured",
