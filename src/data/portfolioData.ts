@@ -7,11 +7,11 @@ export const portfolioData: PortfolioData = {
 
     projects: [
         {
-            id: "analytical-dashboard",
-            title: "Analytical Dashboard",
-            description: "Engineered a full-stack analytics dashboard using Python and Streamlit to provide real-time visualization of order performance metrics from a PostgreSQL database, featuring a custom, mobile-responsive UI with interactive Plotly charts.",
-            technologies: ["Python", "Streamlit", "Pandas", "SQLAlchemy", "Plotly", "PostgreSQL"],
-            sourceCode: "https://github.com/THE-AkS-21/streamlit_dashboard",
+            id: "crickinformer-backend",
+            title: "Crickinformer backend service",
+            description: "Engineered a backend using springboot to provide real-time scores of cricket performance metrics from a mySQL database.",
+            technologies: ["Java", "SpringBoot", "Postman", "IntellijIDEA", "mySQL"],
+            sourceCode: "https://github.com/akulcodes-art/CrickInformer-Backend",
             readme: `
 # 📊 Streamlit Analytics Dashboard
 
