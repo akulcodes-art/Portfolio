@@ -13,164 +13,22 @@ export const portfolioData: PortfolioData = {
             technologies: ["Java", "SpringBoot", "Postman", "IntellijIDEA", "mySQL"],
             sourceCode: "https://github.com/akulcodes-art/CrickInformer-Backend",
             readme: `
-# 📊 Streamlit Analytics Dashboard
+CrickInformer Backend Overview CrickInformer is a robust backend service built with Spring Boot that provides real-time and comprehensive cricket match information. The application fetches live match data, scores, and tournament point tables by scraping the web, processes the information, and exposes it through a clean RESTful API. This service can be used as the backbone for any frontend application (web or mobile) that needs up-to-date cricket data.
 
-A modern, responsive Streamlit dashboard for Bombay Shaving Company to track and visualize order performance by SKU, category, and date range from a PostgreSQL data source.
+The project demonstrates a strong understanding of backend development principles, including API design, web scraping, data persistence with a relational database, and Spring Boot architecture.
 
-## 🚀 Key Features
+Features Get Live Matches: Provides a list of all currently live cricket matches with detailed information like scores, venue, and live status text.
 
--   **Custom UI Components**: Includes a custom collapsible sidebar and a fixed navbar with a dynamic toolbar.
--   **Interactive Charts**: Uses Plotly and streamlit-lightweight-charts to create interactive visualizations of daily order trends.
--   **Dynamic Filtering**: Allows users to filter data by category, subcategory, SKU, and date range.
--   **Performance Optimized**: Implements strategic caching with \`@st.cache_data\` and \`@st.cache_resource\` to ensure fast query performance, even with large datasets.
--   **Data Export**: Features a one-click "Download CSV" option for offline analysis.
--   **Clean Architecture**: Built with a modular structure separating UI components, database queries, and utility functions.
+Get All Matches: Fetches a complete list of matches stored in the database.
+
+Get World Cup Point Table: Scrapes and returns the latest points table for major tournaments like the ICC Cricket World Cup.
+
+Data Persistence: Automatically saves and updates match data into a MySQL database to maintain a history and reduce redundant scraping.
+
+Tech Stack Framework: Spring Boot 3
 `
         },
-        {
-            id: "ecommerce-product-management",
-            title: "E-Commerce Product Management System",
-            description: "Architected a scalable backend with RESTful APIs using ASP.NET Core and designed a PostgreSQL schema for optimal performance. Implemented JWT authentication, role-based access control, and automated deployment with Docker Compose.",
-            technologies: ["ASP.NET Core 8", "PostgreSQL", "Docker", "JWT", "Swagger", "ReactJS"],
-            sourceCode: "https://github.com/THE-AkS-21/E-Commerce_Product_Management_System",
-            gallery: [
-                "assets/gallery/ecommerce-1.png",
-                "assets/gallery/ecommerce-2.png",
-                "assets/gallery/ecommerce-3.png",
-                "assets/gallery/ecommerce-4.png",
-                "assets/gallery/ecommerce-5.png",
-                "assets/gallery/ecommerce-6.png",
-                "assets/gallery/ecommerce-7.png",
-                "assets/gallery/ecommerce-8.png",
-                "assets/gallery/ecommerce-9.png",
-                "assets/gallery/ecommerce-10.png",
-                "assets/gallery/ecommerce-11.png",
-            ],
-            readme: `
-# 🛒 E-Commerce Product Management System
-                
-A robust **Product Management System** built using **ASP.NET Core 8** for the backend and **React 18 + Vite + Tailwind CSS** for the frontend, with **PostgreSQL** as the database. This system allows admins and business users to manage product listings, categories, inventory, etc, efficiently.
-                
----
-                
-## 📖 About
-                
-This project aims to provide a clean, scalable, and modular architecture for product management within an e-commerce environment. The system offers APIs for product CRUD operations, search, filtering, and frontend features for listing and managing products visually.
-                
----
-                
-## 🚀 Key Features
-                
-✅ Clean, maintainable **ASP.NET Core 8 backend** with direct PostgreSQL access (no ORM)  
-✅ Fully responsive **React 18 frontend** styled with **Tailwind CSS** ✅ **Product search** by name  
-✅ **Filter products** by category  
-✅ View **product details** ✅ Add, update, and delete products from the admin panel  
-✅ Clean, stateless **RESTful APIs** ✅ **Dockerized full-stack deployment** ✅ Modern frontend built with **Vite** for blazing-fast development
-                
----
-                
-## 🛠️ Tech Stack
-                
-- **Backend:** ASP.NET Core 8 Web API, Npgsql, C#
-- **Frontend:** React 18, Vite, Tailwind CSS
-- **Database:** PostgreSQL
-- **Containerization:** Docker
-- **API Testing:** Postman
-`
-        },
-        {
-            id: "movie-review-app",
-            title: "Movie Review App",
-            description: "Engineered a backend system with RESTful APIs using Java Spring Boot, demonstrating core principles of API security and backend service development. Implemented features for a React frontend, ensuring efficient data exchange.",
-            technologies: ["Java Spring Boot", "MongoDB", "ReactJS", "REST APIs", "JWT"],
-            sourceCode: "https://github.com/THE-AkS-21/Movie-Review",
-            readme: `
-# Movie Review Application
 
-A full-stack movie review application built with React, Spring Boot, and PostgreSQL. Users can discover movies, write reviews, rate movies, and watch trailers in a modern, responsive interface.
-
-**Features**
-
-**Frontend (React + TypeScript)**
-- **Modern UI/UX**: Clean, responsive design with Material-UI components
-- **Movie Discovery**: Browse and search through a curated collection of movies
-- **Rating System**: 5-star rating system for movies
-- **Review System**: Write and read detailed movie reviews
-- **Trailer Integration**: Watch movie trailers directly in the app
-- **Authentication**: Secure user login and registration
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Real-time Updates**: Live review updates and notifications
-
-**Backend (Spring Boot + PostgreSQL)**
-- **RESTful API**: Comprehensive REST API with proper HTTP status codes
-- **JWT Authentication**: Secure token-based authentication
-- **PostgreSQL Database**: Robust relational database with proper indexing
-- **User Management**: Complete user registration, login, and profile management
-- **Movie Management**: CRUD operations for movies with advanced filtering
-- **Review System**: Full review and rating functionality
-- **Database Migrations**: Flyway for database schema management
-- **Security**: Spring Security with CORS configuration
-- **Health Checks**: Actuator endpoints for monitoring
-
-**DevOps & Infrastructure**
-- **Docker Support**: Multi-container Docker setup
-- **Docker Compose**: Complete orchestration with PostgreSQL and Redis
-- **Database Migrations**: Automated schema management
-- **Health Checks**: Container health monitoring
-- **Nginx Reverse Proxy**: Production-ready reverse proxy configuration
-- **Environment Configuration**: Flexible environment-based configuration
-
-`
-        },
-        {
-            id: "task-manager",
-            title: "Task Manager",
-            description: "Developed a full-stack application with a RESTful API backend in Golang, focusing on efficient CRUD operations and backend performance for task management.",
-            technologies: ["Golang", "MongoDB", "ReactJS", "REST APIs"],
-            sourceCode: "https://github.com/THE-AkS-21/Task-Manager",
-            readme: `# 📝 Full-Stack Task Manager
-
-A modern, full-stack task management application built with a **Go (Golang)** backend and a **React + TypeScript** frontend. This project features a robust RESTful API for all core task operations and a clean, responsive user interface built with Chakra UI.
-
----
-
-## 📖 About The Project
-
-This application provides a simple yet powerful interface for managing to-do items. It's designed with a clean separation between the frontend and backend, making it a great example of a modern, full-stack web application architecture. The backend is built in Go for performance and concurrency, while the frontend uses a modern React stack for a fast and interactive user experience.
-
-## 🚀 Key Features
-
--   **Full CRUD Functionality**: Create, read, update, and delete tasks.
--   **Mark Tasks Complete/Incomplete**: Easily toggle the status of any task.
--   **Bulk Delete**: Clear all tasks with a single action.
--   **RESTful API**: A well-defined API for seamless communication between the client and server.
--   **Modern Frontend**: A responsive and accessible user interface built with React and Chakra UI.
--   **Efficient Data Fetching**: Utilizes TanStack Query for optimized data fetching and state management.
-
-## 🛠️ Tech Stack
-
-| Area      | Technology                                                                          |
-| :-------- | :---------------------------------------------------------------------------------- |
-| **Backend** | **Go (Golang)** with **Gorilla Mux** for routing |
-| **Database**| **MongoDB** (with the official Go driver) |
-| **Frontend**| **React 18** (with Vite), **TypeScript** |
-| **UI Library**| **Chakra UI** |
-| **Data Fetching**| **TanStack (React) Query**|
-
-## 📊 API Endpoints
-
-All API endpoints are prefixed with \`/api\`.
-
-| Method   | Endpoint              | Description                    |
-| :------- | :-------------------- | :----------------------------- |
-| \`GET\`    | \`/task\`               | Get all tasks |
-| \`POST\`   | \`/tasks\`              | Create a new task |
-| \`PUT\`    | \`/tasks/{id}\`         | Mark a task as complete |
-| \`PUT\`    | \`/undoTask/{id}\`      | Mark a task as not complete |
-| \`DELETE\` | \`/deleteTask/{id}\`    | Delete a single task |
-| \`DELETE\` | \`/deleteAllTasks\`    | Delete all tasks |
-`
-        },
         {
             id: "portfolio",
             title: "Personal Portfolio",
